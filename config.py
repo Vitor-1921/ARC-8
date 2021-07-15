@@ -11,6 +11,9 @@ BOT_IDENTITY = {
  'token': environ.get('DISCORD_TOKEN')
 }
 BOT_ADMINS = ('Vitor_1921#5397', ) 
+BOT_PREFIX = '!'
+BOT_PREFIX_OPTIONAL_ON_CHAT = True  
+
 
 BOT_DATA_DIR = r'data'
 BOT_EXTRA_PLUGIN_DIR = r'plugins'
